@@ -1,6 +1,11 @@
 module MyFirstPackage
 
-include("shortest.jl")
+using LinearAlgebra
+using Graphs
+using TropicalNumbers
 
 export shortest_paths
+
+include("shortest.jl")
+
 end
