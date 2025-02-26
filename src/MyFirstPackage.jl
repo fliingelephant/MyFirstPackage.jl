@@ -1,5 +1,6 @@
 module MyFirstPackage
 
-# Write your package code here.
+include("shortest.jl")
 
+export shortest_paths
 end

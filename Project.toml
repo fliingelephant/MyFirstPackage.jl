@@ -3,7 +3,15 @@ uuid = "25c887bc-ae56-41f8-9368-730d8d370e9d"
 authors = ["Huanhai Zhou"]
 version = "1.0.0-DEV"
 
+[deps]
+FastPow = "c0e83750-1142-43a8-81cf-6c956b72b4d1"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+TropicalNumbers = "b3a74e9c-7526-4576-a4eb-79c0d4c32334"
+
 [compat]
+FastPow = "0.1.0"
+Graphs = "1.12.0"
+TropicalNumbers = "0.6.2"
 julia = "1"
 
 [extras]
